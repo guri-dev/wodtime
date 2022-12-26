@@ -1,8 +1,9 @@
 import './App.css';
+import Hero from './components/Hero/Hero.jsx';
 function App() {
   return (
     <div className="App">
-          <span style={{color: 'white'}}>Wodtime website</span>
+          <Hero />
     </div>
   );
 }
