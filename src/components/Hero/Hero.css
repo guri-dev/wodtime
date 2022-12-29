@@ -7,6 +7,9 @@
     padding: 2rem;
     padding-top: 1.5rem;
     flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
 }
 
 .right-h {
@@ -14,7 +17,7 @@
 }
 
 .the-best-ad {
-    margin-top: 4rm;
+    margin-top: 4rem;
     background-color: #363d42;
     border-radius: 4rem;
     width: fit-content;
@@ -39,4 +42,15 @@
     left: 8px;
     border-radius: 3rem;     
     z-index: 1;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
 }
