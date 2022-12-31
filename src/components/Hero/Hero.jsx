@@ -1,5 +1,9 @@
 import React from 'react'
 import Header from '../Header/Header';
+import hero_image from "../../assets/hero_image.png";
+import hero_image_back from "../../assets/hero_image_back.png";
+import heart from "../../assets/heart.png";
+import calories from "../../assets/calories.png";
 import './Hero.css';
 
 const Hero = () => {
@@ -44,7 +48,9 @@ const Hero = () => {
           <button className="bts">Learn More</button>
         </div>
       </div>
-      <div className="right-h">Right</div>
+      <div className="right-h">
+        <button>Join Now</button>
+      </div>
     </div>
   )
 }
