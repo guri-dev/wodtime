@@ -39,6 +39,10 @@ const Hero = () => {
             <span>Fitness programs</span>
           </div>
         </div>
+        <div className="hero-button">
+          <button className="bts">Get Started</button>
+          <button className="bts">Learn More</button>
+        </div>
       </div>
       <div className="right-h">Right</div>
     </div>
