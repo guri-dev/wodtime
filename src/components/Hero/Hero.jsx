@@ -49,7 +49,12 @@ const Hero = () => {
         </div>
       </div>
       <div className="right-h">
-        <button>Join Now</button>
+        <button className='btn'>Join Now</button>
+
+        <div className="heart-rate">
+          <img src={heart} alt="" />
+          <span>Heart Rate</span><span>116 bpm</span>
+        </div>
       </div>
     </div>
   )
