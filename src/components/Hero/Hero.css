@@ -88,13 +88,13 @@
     gap: 1rem;
     font-weight: normal;
 }
-.hero-button:nth-child(1) {
+.hero-button>:nth-child(1) {
     color: white;
     background-color: var(--orange);
     width: 8rem;
 }
 
-.hero-button:nth-child(2) {
+.hero-button>:nth-child(2) {
     color: white;
     background-color: transparent;
     width: 8rem;
@@ -129,4 +129,23 @@
 .heart-rate > span:nth-of-type(2) {
     color: white;
     font-style: 1.5em;
+}
+
+.heart-rate > img {
+    width: 2rem;
+}
+
+.hero-image {
+    position: absolute;
+    right: 8rem;
+    top: 10rem;
+    width: 23rem;
+}
+
+.hero-image-back {
+    position: absolute;
+    right: 20rem;
+    top: 4rem;
+    width: 15rem;
+    z-index: -1;
 }
