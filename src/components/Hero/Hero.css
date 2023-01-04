@@ -160,3 +160,13 @@
     top: 32rem;
     right: 28rem;
 }
+
+.calories > img {
+    width: 3rem;
+}
+
+.calories > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
