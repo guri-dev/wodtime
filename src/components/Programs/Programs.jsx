@@ -2,11 +2,11 @@ import React from 'react'
 import './Programs.css';
 const Programs = () => {
   return (
-    <div className="programs" id="programs">
+    <div className="Programs" id="programs">
         <div className="programs-header">
-            <span>Explore our</span>
+            <span className='stroke-text'>Explore our</span>
             <span>Program</span>
-            <span>to shape you</span>
+            <span className='stroke-text'>to shape you</span>
         </div>
     </div>
   )
