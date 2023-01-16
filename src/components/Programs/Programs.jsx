@@ -9,13 +9,12 @@ const Programs = () => {
             <span>Program</span>
             <span className='stroke-text'>to shape you</span>
         </div>
-        <div className="program-categories">
-          {programsData.map((program)=>{
+        <div className="program-categories">okoko
+          {programsData.map((program) => (
             <div className="category">
               {program.image}
-              <span>{program.heading}</span><span>{program.details}</span>
             </div>
-          })}
+          ))}
         </div>
     </div>
   )
