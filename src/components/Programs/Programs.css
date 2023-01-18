@@ -15,3 +15,32 @@
     text-transform: uppercase;
     font-style: italic;
 }
+
+.program-categories {
+    display: flex;
+    gap: 1rem;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 1rem;
+    gap: 2rem;
+    color: white;
+    justify-content: space-between;
+}
+
+.category>:nth-child(1) {
+    width: 2rem;
+}
+
+.category>:nth-child(2) {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.category>:nth-child(3) {
+    font-size: 0.9rem;
+    line-height: 25px;
+}
