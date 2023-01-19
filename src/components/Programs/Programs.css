@@ -31,8 +31,14 @@
     justify-content: space-between;
 }
 
-.category>:nth-child(1) {
+.category:hover {
+    background: var(--planCard);
+    cursor: pointer;
+}
+
+.category>:nth-child(1) { 
     width: 2rem;
+    fill: white;
 }
 
 .category>:nth-child(2) {
@@ -43,4 +49,8 @@
 .category>:nth-child(3) {
     font-size: 0.9rem;
     line-height: 25px;
+}
+
+.join-now>img {
+    width: 1rem;
 }
