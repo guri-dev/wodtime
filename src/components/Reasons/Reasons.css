@@ -1,13 +1,13 @@
 .Reasons {
     padding: 0 2rem;
     display: flex;
-    grid-template: 2rem;
+    gap: 2rem;
 }
 
 .left-r {
     flex: 1 1;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 1rem;
     grid-auto-rows: 1fr;
 }
@@ -42,4 +42,23 @@
 
 .left-l {
     flex: 1 1;
+}
+
+.right-r {
+    flex: 1 1;
+    text-transform: uppercase;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-r>span {
+    font-weight: bold;
+    color: var(--orange);
+}
+
+.right-r>div {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
 }
