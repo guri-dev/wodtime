@@ -19,3 +19,37 @@
     border-radius: 20%;
     margin: -10px 0;
 }
+
+.left-j>div {
+    display: flex;
+    gap: 1rem;
+}
+
+.right-j {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.email-container {
+    display: flex;
+    background-color: grey;
+    gap: 3rem;
+    padding: 1rem 2rem;
+}
+
+.email-container>input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgrayz);
+}
+
+::placeholder {
+    color: var(--lightgray);
+}
+
+.btn-j {
+    background-color: var(--orange);
+    color: white;
+}
